@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    line-height: 1.6;
+    background: #fff;
+    font-size: 16px;
+    color: #000;
+    font-family: Roboto, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+.box {
+    padding: 20px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: inherit;
+    border-radius: 5px;
+}
+
+
+.button {
+    margin: 0;
+    padding: 10px 20px;
+    color: #fff;
+    background: #15a1cc;
+    border: none;
+    font-size: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #00b1cc;
+}
+
+.result {
+    overflow: auto;
+}
+
+.result > div {
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+
+.error {
+    padding: 15px 20px 14px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.total-label {
+    padding: 20px 0;
+}
+
+.total-label span {
+    display: inline-block;
+    padding: 2px 5px 0 5px;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    background: #15a1cc;
+}
