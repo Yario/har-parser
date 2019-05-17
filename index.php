@@ -14,7 +14,7 @@
                 <input type="text" class="input" id="basehost" name="basehost" required>
             </div>
             <div class="row">
-                <label for="har_file">.HAR file</label>
+                <label for="har_file">.HAR file(s)</label>
                 <input type="file" class="input" id="har_file" name="har_file[]" required multiple>
             </div>
             <div class="row">
